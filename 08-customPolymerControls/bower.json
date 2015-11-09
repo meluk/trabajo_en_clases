@@ -1,0 +1,28 @@
+{
+  "name": "08-customPolymerControls",
+  "version": "0.1.0",
+  "description": "Demostration of custom components",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "demo",
+    "practice"
+  ],
+  "authors": [
+    "melisssa salazar ureña"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  }
+}

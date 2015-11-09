@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HELLO WORLD</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="controllers.js"></script>
+
+    <!--Polimer-->
+    <script type="tex/javascript" src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <!-- My dems-->
+    <link rel="import" href="my-componests/my-simpleelement.html">
+
+  </head>
+  <body ng-app='custompolymer'>
+    <a href="#/">Home</a>
+    <a href="#/simpleelement">simple elements</a>
+    <div ng-view>
+      <!-- view display-->
+    </div>
+      
+
+  </body>
+</html>
